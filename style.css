@@ -1,0 +1,432 @@
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 5px;
+}
+
+#menu a {
+  color: #8804fc;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 5px;
+  transition: color 0.3s linear;
+  
+}
+
+#menu a:hover {
+  color: #1f0d4e;
+}
+
+.logotipo{
+ margin-top: -7px;
+ margin-left: 50px;
+}
+
+#header {
+  box-sizing: border-box;
+  height: 90px;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ecebec;
+  position: fixed;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.055);
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+#menu a {
+  display: block;
+  padding: 0.5rem;
+}
+
+
+
+#btn-mobile {
+  display: none;
+}
+
+.about{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ecebec;
+  
+  padding: 100px;
+  color:  #ffffff;
+    
+  
+}
+
+.logogrande{
+
+  max-width:20%;
+  max-height:20%;
+  width: auto;
+  height: auto;
+  margin-left: 1cm;
+  display: inline-block;
+  margin-bottom: -4cm;
+  
+
+}
+
+.about a{
+  text-decoration:none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: solid 2px #8804fc;
+  border-radius: 25px;
+  padding: 15px;
+  color: #8804fc;
+  transition: color 0.3s linear;
+  display: inline-block;
+  margin-top: 15px;
+
+}
+
+.about a:hover {
+  color: #8804fc60;
+}
+
+.titulo{
+  text-align: left;
+  color: #9528f5;
+  font-family: arial, Helvetica, sans-serif;
+  font-weight: .1px;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 170px;
+  word-spacing: 2px;
+  letter-spacing: 5px;
+  
+  
+}
+
+.titulo2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-size: 30px;
+  text-align: left;
+  font-weight:1px;
+  text-shadow: 0px 3px 2px #9528f55d;
+  margin-top: -20px;
+  letter-spacing: 2px;
+  margin-right: 660px;
+}
+
+
+.image-tech{
+  max-width:60%;
+  max-height:60%;
+  width: auto;
+  height: auto;
+  margin-left: 13cm;
+  margin-top: -12cm;
+}
+
+.projeto{
+  background: #8804fc;
+  padding: 100px;
+  padding-bottom: 280px;
+
+}
+.senai{
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+.senai2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.cyber{
+  max-width:50%;
+  max-height:50%;
+  width: auto;
+  height: auto;
+  margin-left: 1cm;
+  margin-top: 2cm;
+}
+
+.three{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #ecebec;
+  margin-left: 20cm;
+  margin-top: -10cm;
+}
+
+.sobre{
+  padding: 100px;
+  background: #ecebec;
+}
+
+.sobre-title{
+  text-align: left;
+  color: #9528f5;
+  font-family: arial, Helvetica, sans-serif;
+  font-weight:lighter;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 2cm;
+  
+  margin-left: 1cm;
+  word-spacing: 2px;
+  letter-spacing: 5px;
+  
+}
+
+.sobre-paragraph{
+  margin-left:1cm;
+  margin-right:1cm;
+  margin-bottom: 1cm;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  color: #000000;
+  font-weight: bold;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 28%;
+  display: inline-block;
+  margin-left: 1cm;
+  border: solid 2px #8804fc;
+  margin-bottom: 2cm;
+}
+
+.card h4{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000a1;
+}
+
+.card p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  border: solid 2px #8804fc;
+  margin-top: -4px;
+}
+
+@media(max-width:850px) {
+  #imagem img{
+    margin-left: none;
+    margin-top: none;
+    display: inline-block;
+    float: left;
+  }
+
+} 
+
+@media(max-width: 850px) {
+  .titulo{
+    font-size: 40px;
+    text-align: left;
+    margin-left:-30px;
+    
+    padding-left: none;
+    width: 350px;
+    color: #9528f5;
+  }
+
+  .about a{
+    margin-top: 20px;
+  }
+
+  .titulo2{
+    font-size: 20px;
+    text-align: left;
+    margin-left:-30px;
+    margin-right: 0px;
+  }
+
+} 
+
+.contact{
+  background:#ecebec;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  margin-bottom: 1cm;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 20px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+ 
+  
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #8804fc;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container2{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left:none;
+  margin-right:none;
+  
+  background-color: #8804fc;
+  background:#ecebec;
+  color: #8804fc;
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset{
+  margin-left:10cm;
+  margin-right:10cm;
+  border: transparent;
+  margin-bottom: 3cm;
+}
+
+
+@media (max-width: 750px) {
+  #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    right: 0px;
+    background: #ecebec;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  .image-tech{
+    margin-left: 1px;
+    margin-top: 90px;
+    max-width:100%;
+    max-height:100%%;
+    
+  }
+
+  .senai{
+    font-size: 20px;
+  }
+
+
+
+  #nav.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  }
+  #btn-mobile {
+    color: #8804fc;
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+    color: #8804fc;
+    border-top: 2px solid;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    color: #8804fc;
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    color: #8804fc;
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+}
+
+footer{
+  width:100%;
+  height: 100px;
+  background: #310358;
+  text-align: center;
+}
+footer p{
+  display: inline-block;
+  margin-top: 1cm;
+  color: #ecebec;
+}
